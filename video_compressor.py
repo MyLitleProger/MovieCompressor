@@ -2,8 +2,6 @@ import os
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
 from moviepy import VideoFileClip
-from moviepy.audio.io import AudioFileClip
-from moviepy.video.compositing.CompositeVideoClip import CompositeVideoClip
 
 
 def compress_video(input_path, target_width=1280, target_bitrate="500k"):
